@@ -192,6 +192,7 @@ def process_text_data(df):
             main_topics.append("")
             continue
         
+        #TODO: Gemini API'nin duyarlılık analizi için prompti geliştirlecek alternatif bir yaklaşım olarak ilgili analizleri yapmak için AGENT yapısı kurularak raporlaştırma süreci geliştirilecek.    
         # Duyarlılık analizi için prompt
         sentiment_prompt = f"""
         Aşağıdaki finansal haber metninin genel duyarlılığını (sentiment) analiz et.
