@@ -1,0 +1,247 @@
+2025-05-05 16:49:23,439 - INFO - Gerekli paketler kontrol ediliyor...
+2025-05-05 16:49:23,672 - INFO - newsapi-python paketi yüklü.
+2025-05-05 16:49:23,672 - INFO - Veri toplama iþlemi baþlýyor...
+2025-05-05 16:49:23,672 - INFO - Hisse ve endeks verileri alýnýyor: THYAO.IS, XU100.IS
+2025-05-05 16:49:24,114 - ERROR - Failed to get ticker 'XU100.IS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-05 16:49:24,114 - ERROR - Failed to get ticker 'THYAO.IS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-05 16:49:24,126 - ERROR - 
+2 Failed downloads:
+2025-05-05 16:49:24,126 - ERROR - ['XU100.IS', 'THYAO.IS']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2025-05-05 16:49:24,140 - INFO - Toplam 0 satýr veri alýndý.
+2025-05-05 16:49:24,140 - ERROR - Hisse senedi verileri alýnamadý. Ýþlem sonlandýrýlýyor.
+2025-05-05 16:50:51,242 - INFO - Gerekli paketler kontrol ediliyor...
+2025-05-05 16:50:51,396 - INFO - newsapi-python paketi yüklü.
+2025-05-05 16:50:51,397 - INFO - Veri toplama iþlemi baþlýyor...
+2025-05-05 16:50:51,397 - INFO - Hisse ve endeks verileri alýnýyor: AAPL, Nasdq
+2025-05-05 16:50:52,023 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-05 16:50:52,789 - ERROR - Failed to get ticker 'NASDQ' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-05 16:50:52,800 - ERROR - 
+2 Failed downloads:
+2025-05-05 16:50:52,800 - ERROR - ['AAPL', 'NASDQ']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2025-05-05 16:50:52,805 - INFO - Toplam 0 satýr veri alýndý.
+2025-05-05 16:50:52,806 - ERROR - Hisse senedi verileri alýnamadý. Ýþlem sonlandýrýlýyor.
+2025-05-05 16:57:32,319 - INFO - Gerekli paketler kontrol ediliyor...
+2025-05-05 16:57:32,479 - INFO - newsapi-python paketi yüklü.
+2025-05-05 16:57:32,480 - INFO - Veri toplama iþlemi baþlýyor...
+2025-05-05 16:57:32,480 - INFO - Kullanýlacak parametreler: Hisse: AAPL, Endeks: ^IXIC
+2025-05-05 16:57:32,481 - INFO - Tarih aralýðý: 2023-01-01 - 2023-12-31
+2025-05-05 16:57:32,481 - INFO - 'AAPL' sembolü Yahoo Finance'de kontrol ediliyor...
+2025-05-05 16:57:33,783 - INFO - '^IXIC' sembolü Yahoo Finance'de kontrol ediliyor...
+2025-05-05 16:57:34,058 - WARNING - Sembol format düzeltmesi uygulanýyor...
+2025-05-05 16:57:34,058 - INFO - Sembol düzeltmesi: AAPL -> AAPL
+2025-05-05 16:57:34,058 - INFO - Endeks düzeltmesi: ^IXIC -> ^IXIC
+2025-05-05 16:57:34,059 - INFO - 'AAPL' sembolü Yahoo Finance'de kontrol ediliyor...
+2025-05-05 16:57:34,332 - INFO - '^IXIC' sembolü Yahoo Finance'de kontrol ediliyor...
+2025-05-05 16:57:34,540 - INFO - 'AAPL' sembolü doðrulanamadý: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v6/finance/quoteSummary/AAPL?modules=financialData&modules=quoteType&modules=defaultKeyStatistics&modules=assetProfile&modules=summaryDetail&ssl=true
+2025-05-05 16:57:34,540 - INFO - '^IXIC' sembolü doðrulanamadý: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v6/finance/quoteSummary/%5EIXIC?modules=financialData&modules=quoteType&modules=defaultKeyStatistics&modules=assetProfile&modules=summaryDetail&ssl=true
+2025-05-05 16:57:34,540 - INFO - Hisse senedi verileri alýnýyor...
+2025-05-05 16:57:34,541 - INFO - HisseVerisiAlma modülü kullanýlarak veriler alýnýyor...
+2025-05-05 16:57:34,542 - INFO - Hisse ve endeks verileri alýnýyor: AAPL, ^IXIC
+2025-05-05 16:57:34,751 - ERROR - Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-05 16:57:34,751 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-05 16:57:34,758 - ERROR - 
+2 Failed downloads:
+2025-05-05 16:57:34,758 - ERROR - ['^IXIC', 'AAPL']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2025-05-05 16:57:34,765 - INFO - Toplam 0 satýr veri alýndý.
+2025-05-05 16:57:34,766 - WARNING - HisseVerisiAlma modülü ile veri alýnamadý, doðrudan yöntem deneniyor...
+2025-05-05 16:57:34,766 - INFO - Hisse ve endeks verileri doðrudan alýnýyor: AAPL, ^IXIC
+2025-05-05 16:57:34,766 - INFO - 'AAPL' sembolü Yahoo Finance'de kontrol ediliyor...
+2025-05-05 16:57:34,964 - INFO - '^IXIC' sembolü Yahoo Finance'de kontrol ediliyor...
+2025-05-05 16:57:35,159 - INFO - 'AAPL' sembolü doðrulanamadý: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v6/finance/quoteSummary/AAPL?modules=financialData&modules=quoteType&modules=defaultKeyStatistics&modules=assetProfile&modules=summaryDetail&ssl=true
+2025-05-05 16:57:35,160 - INFO - '^IXIC' sembolü doðrulanamadý: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v6/finance/quoteSummary/%5EIXIC?modules=financialData&modules=quoteType&modules=defaultKeyStatistics&modules=assetProfile&modules=summaryDetail&ssl=true
+2025-05-05 16:57:35,160 - ERROR - Geçersiz semboller nedeniyle veri alýnamýyor.
+2025-05-05 16:57:35,161 - ERROR - Hisse senedi verileri alýnamadý. Ýþlem sonlandýrýlýyor.
+2025-05-05 17:02:22,603 - INFO - Gerekli paketler kontrol ediliyor...
+2025-05-05 17:02:22,762 - INFO - newsapi-python paketi yüklü.
+2025-05-05 17:02:22,762 - INFO - Veri toplama iþlemi baþlýyor...
+2025-05-05 17:02:22,762 - INFO - Kullanýlacak parametreler: Hisse: AAPL, Endeks: ^IXIC
+2025-05-05 17:02:22,762 - INFO - Tarih aralýðý: 2023-01-01 - 2023-12-31
+2025-05-05 17:02:22,762 - INFO - 'AAPL' sembolü Yahoo Finance'de kontrol ediliyor...
+2025-05-05 17:02:23,038 - INFO - '^IXIC' sembolü Yahoo Finance'de kontrol ediliyor...
+2025-05-05 17:02:23,241 - WARNING - Sembol format düzeltmesi uygulanýyor...
+2025-05-05 17:02:23,241 - INFO - Sembol düzeltmesi: AAPL -> AAPL
+2025-05-05 17:02:23,241 - INFO - Endeks düzeltmesi: ^IXIC -> ^IXIC
+2025-05-05 17:02:23,241 - INFO - 'AAPL' sembolü Yahoo Finance'de kontrol ediliyor...
+2025-05-05 17:02:23,435 - INFO - '^IXIC' sembolü Yahoo Finance'de kontrol ediliyor...
+2025-05-05 17:02:23,651 - INFO - 'AAPL' sembolü doðrulanamadý: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v6/finance/quoteSummary/AAPL?modules=financialData&modules=quoteType&modules=defaultKeyStatistics&modules=assetProfile&modules=summaryDetail&ssl=true
+2025-05-05 17:02:23,651 - INFO - '^IXIC' sembolü doðrulanamadý: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v6/finance/quoteSummary/%5EIXIC?modules=financialData&modules=quoteType&modules=defaultKeyStatistics&modules=assetProfile&modules=summaryDetail&ssl=true
+2025-05-05 17:02:23,651 - INFO - Hisse senedi verileri alýnýyor...
+2025-05-05 17:02:23,651 - INFO - HisseVerisiAlma modülü kullanýlarak veriler alýnýyor...
+2025-05-05 17:02:23,651 - INFO - Hisse ve endeks verileri alýnýyor: AAPL, ^IXIC
+2025-05-05 17:02:23,846 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-05 17:02:23,873 - ERROR - Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-05 17:02:23,878 - ERROR - 
+2 Failed downloads:
+2025-05-05 17:02:23,878 - ERROR - ['AAPL', '^IXIC']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2025-05-05 17:02:23,887 - INFO - Toplam 0 satýr veri alýndý.
+2025-05-05 17:02:23,887 - WARNING - HisseVerisiAlma modülü ile veri alýnamadý, doðrudan yöntem deneniyor...
+2025-05-05 17:02:23,887 - INFO - Hisse ve endeks verileri doðrudan alýnýyor: AAPL, ^IXIC
+2025-05-05 17:02:23,887 - INFO - 'AAPL' sembolü Yahoo Finance'de kontrol ediliyor...
+2025-05-05 17:02:24,095 - INFO - '^IXIC' sembolü Yahoo Finance'de kontrol ediliyor...
+2025-05-05 17:02:24,289 - INFO - 'AAPL' sembolü doðrulanamadý: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v6/finance/quoteSummary/AAPL?modules=financialData&modules=quoteType&modules=defaultKeyStatistics&modules=assetProfile&modules=summaryDetail&ssl=true
+2025-05-05 17:02:24,289 - INFO - '^IXIC' sembolü doðrulanamadý: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v6/finance/quoteSummary/%5EIXIC?modules=financialData&modules=quoteType&modules=defaultKeyStatistics&modules=assetProfile&modules=summaryDetail&ssl=true
+2025-05-05 17:02:24,289 - ERROR - Geçersiz semboller nedeniyle veri alýnamýyor.
+2025-05-05 17:02:24,289 - ERROR - Hisse senedi verileri alýnamadý. Ýþlem sonlandýrýlýyor.
+2025-05-05 17:09:15,426 - INFO - Gerekli paketler kontrol ediliyor...
+2025-05-05 17:09:15,635 - INFO - newsapi-python paketi yüklü.
+2025-05-05 17:09:15,636 - INFO - Veri toplama iþlemi baþlýyor...
+2025-05-05 17:09:51,434 - INFO - Kullanýlacak parametreler: Hisse: AAPL, Endeks: ^IXIC
+2025-05-05 17:09:51,434 - INFO - Tarih aralýðý: 2024-05-05 - 2025-05-05
+2025-05-05 17:09:51,434 - INFO - 'AAPL' sembolü Yahoo Finance'de kontrol ediliyor...
+2025-05-05 17:09:51,747 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-05 17:09:51,999 - ERROR - AAPL: No price data found, symbol may be delisted (period=1d)
+2025-05-05 17:09:52,217 - INFO - '^IXIC' sembolü Yahoo Finance'de kontrol ediliyor...
+2025-05-05 17:09:52,483 - ERROR - Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-05 17:09:52,696 - ERROR - ^IXIC: No price data found, symbol may be delisted (period=1d)
+2025-05-05 17:09:52,907 - WARNING - Sembol format düzeltmesi uygulanýyor...
+2025-05-05 17:09:52,908 - INFO - Sembol düzeltmesi: AAPL -> AAPL
+2025-05-05 17:09:52,908 - INFO - Endeks düzeltmesi: ^IXIC -> ^IXIC
+2025-05-05 17:09:52,908 - INFO - 'AAPL' sembolü Yahoo Finance'de kontrol ediliyor...
+2025-05-05 17:09:53,166 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-05 17:09:53,376 - ERROR - AAPL: No price data found, symbol may be delisted (period=1d)
+2025-05-05 17:09:53,646 - INFO - '^IXIC' sembolü Yahoo Finance'de kontrol ediliyor...
+2025-05-05 17:09:53,859 - ERROR - Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-05 17:09:54,125 - ERROR - ^IXIC: No price data found, symbol may be delisted (period=1d)
+2025-05-05 17:09:54,406 - INFO - 'AAPL' sembolü bulunamadý veya geçerli deðil.
+2025-05-05 17:09:54,406 - INFO - '^IXIC' sembolü bulunamadý veya geçerli deðil.
+2025-05-05 17:09:54,406 - INFO - Hisse senedi verileri alýnýyor...
+2025-05-05 17:09:54,406 - INFO - HisseVerisiAlma modülü kullanýlarak veriler alýnýyor...
+2025-05-05 17:09:54,406 - INFO - Hisse ve endeks verileri alýnýyor: AAPL, ^IXIC
+2025-05-05 17:09:54,625 - ERROR - Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-05 17:09:54,626 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-05 17:09:54,635 - ERROR - 
+2 Failed downloads:
+2025-05-05 17:09:54,635 - ERROR - ['^IXIC', 'AAPL']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2025-05-05 17:09:54,641 - INFO - Toplam 0 satýr veri alýndý.
+2025-05-05 17:09:54,642 - WARNING - HisseVerisiAlma modülü ile veri alýnamadý, doðrudan yöntem deneniyor...
+2025-05-05 17:09:54,642 - INFO - Hisse ve endeks verileri doðrudan alýnýyor: AAPL, ^IXIC
+2025-05-05 17:09:54,651 - INFO - AAPL için veri indiriliyor...
+2025-05-05 17:09:54,876 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-05 17:09:54,879 - ERROR - 
+1 Failed download:
+2025-05-05 17:09:54,879 - ERROR - ['AAPL']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2025-05-05 17:09:55,885 - INFO - ^IXIC için veri indiriliyor...
+2025-05-05 17:09:56,098 - ERROR - Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-05 17:09:56,104 - ERROR - 
+1 Failed download:
+2025-05-05 17:09:56,104 - ERROR - ['^IXIC']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2025-05-05 17:09:57,115 - ERROR - Hem hisse hem de endeks verileri alýnamadý.
+2025-05-05 17:09:57,116 - WARNING - Doðrudan yöntemle de veri alýnamadý, alternatif kaynak deneniyor...
+2025-05-05 17:09:57,116 - INFO - Alternatif veri kaynaklarý kullanýlýyor: AAPL, ^IXIC
+2025-05-05 17:09:57,116 - WARNING - Gerçek veri alýnamadý, örnek veri oluþturuluyor.
+2025-05-05 17:09:57,127 - WARNING - DÝKKAT: Bu veriler simülasyon verileridir ve gerçek piyasa verilerini yansýtmaz! Toplam 522 satýr simülasyon verisi oluþturuldu.
+2025-05-05 17:09:57,143 - INFO - Simülasyon verisi gelecekte kullanýlmak üzere kaydedildi: C:\Users\asus\Desktop\PROJECALISMALARIM\Fýnans\Project C\Veri_Alma\veri/hisse/AAPL_2024-05-05_2025-05-05.csv
+2025-05-05 17:09:57,148 - INFO - Veriler baþarýyla veri/hisse/AAPL_2024-05-05_2025-05-05.json dosyasýna kaydedildi.
+2025-05-05 17:09:57,148 - INFO - Apple Inc için haber verileri alýnýyor...
+2025-05-05 17:09:57,148 - INFO - Apple Inc ile ilgili haberler toplanýyor...
+2025-05-05 17:09:57,148 - INFO - NewsApiClient baþarýyla baþlatýldý.
+2025-05-05 17:09:57,816 - ERROR - NewsAPI hatasý: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2024-05-05. You may need to upgrade to a paid plan. (Kod: 426)
+2025-05-05 17:09:57,816 - WARNING - API yanýtý baþarýsýz: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2024-05-05. You may need to upgrade to a paid plan.
+2025-05-05 17:10:00,466 - ERROR - NewsAPI hatasý: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2024-06-04. You may need to upgrade to a paid plan. (Kod: 426)
+2025-05-05 17:10:00,466 - WARNING - API yanýtý baþarýsýz: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2024-06-04. You may need to upgrade to a paid plan.
+2025-05-05 17:10:03,070 - ERROR - NewsAPI hatasý: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2024-07-04. You may need to upgrade to a paid plan. (Kod: 426)
+2025-05-05 17:10:03,072 - WARNING - API yanýtý baþarýsýz: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2024-07-04. You may need to upgrade to a paid plan.
+2025-05-05 17:10:05,715 - ERROR - NewsAPI hatasý: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2024-08-03. You may need to upgrade to a paid plan. (Kod: 426)
+2025-05-05 17:10:05,716 - WARNING - API yanýtý baþarýsýz: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2024-08-03. You may need to upgrade to a paid plan.
+2025-05-05 17:10:08,403 - ERROR - NewsAPI hatasý: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2024-09-02. You may need to upgrade to a paid plan. (Kod: 426)
+2025-05-05 17:10:08,404 - WARNING - API yanýtý baþarýsýz: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2024-09-02. You may need to upgrade to a paid plan.
+2025-05-05 17:10:10,607 - ERROR - NewsAPI hatasý: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2024-10-02. You may need to upgrade to a paid plan. (Kod: 426)
+2025-05-05 17:10:10,616 - WARNING - API yanýtý baþarýsýz: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2024-10-02. You may need to upgrade to a paid plan.
+2025-05-05 17:10:12,838 - ERROR - NewsAPI hatasý: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2024-11-01. You may need to upgrade to a paid plan. (Kod: 426)
+2025-05-05 17:10:12,840 - WARNING - API yanýtý baþarýsýz: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2024-11-01. You may need to upgrade to a paid plan.
+2025-05-05 17:10:15,055 - ERROR - NewsAPI hatasý: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2024-12-01. You may need to upgrade to a paid plan. (Kod: 426)
+2025-05-05 17:10:15,058 - WARNING - API yanýtý baþarýsýz: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2024-12-01. You may need to upgrade to a paid plan.
+2025-05-05 17:10:17,647 - ERROR - NewsAPI hatasý: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2024-12-31. You may need to upgrade to a paid plan. (Kod: 426)
+2025-05-05 17:10:17,647 - WARNING - API yanýtý baþarýsýz: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2024-12-31. You may need to upgrade to a paid plan.
+2025-05-05 17:10:19,917 - ERROR - NewsAPI hatasý: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2025-01-30. You may need to upgrade to a paid plan. (Kod: 426)
+2025-05-05 17:10:19,924 - WARNING - API yanýtý baþarýsýz: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2025-01-30. You may need to upgrade to a paid plan.
+2025-05-05 17:10:22,136 - ERROR - NewsAPI hatasý: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2025-03-01. You may need to upgrade to a paid plan. (Kod: 426)
+2025-05-05 17:10:22,136 - WARNING - API yanýtý baþarýsýz: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2025-03-01. You may need to upgrade to a paid plan.
+2025-05-05 17:10:24,371 - ERROR - NewsAPI hatasý: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2025-03-31. You may need to upgrade to a paid plan. (Kod: 426)
+2025-05-05 17:10:24,371 - WARNING - API yanýtý baþarýsýz: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-04, but you have requested 2025-03-31. You may need to upgrade to a paid plan.
+2025-05-05 17:10:29,189 - INFO - Toplam 97 haber makalesi bulundu.
+2025-05-05 17:10:29,190 - INFO - Haberlere sentiment analizi uygulanýyor...
+2025-05-05 17:10:29,232 - INFO - Sentiment analizi tamamlandý.
+2025-05-05 17:10:29,237 - INFO - Veriler baþarýyla veri/haber/AAPL_haberler_2024-05-05_2025-05-05.json dosyasýna kaydedildi.
+2025-05-05 17:10:29,237 - INFO - Hisse ve haber verileri birleþtiriliyor: AAPL
+2025-05-05 17:10:29,247 - INFO - Veri birleþtirme tamamlandý. Sonuç: 261 satýr.
+2025-05-05 17:10:29,251 - INFO - Veriler baþarýyla veri/birlestir/AAPL_birlesik_2024-05-05_2025-05-05.json dosyasýna kaydedildi.
+2025-05-05 17:10:29,252 - INFO - Veri toplama ve iþleme tamamlandý.
+2025-05-05 17:10:29,252 - INFO - Sonuçlar þu dosyalara kaydedildi:
+2025-05-05 17:10:29,252 - INFO -   - Hisse verileri: veri/hisse/AAPL_2024-05-05_2025-05-05.json
+2025-05-05 17:10:29,252 - INFO -   - Haber verileri: veri/haber/AAPL_haberler_2024-05-05_2025-05-05.json
+2025-05-05 17:10:29,252 - INFO -   - Birleþtirilmiþ veriler: veri/birlestir/AAPL_birlesik_2024-05-05_2025-05-05.json
+2025-05-06 10:27:38,403 - INFO - Gerekli paketler kontrol ediliyor...
+2025-05-06 10:27:38,644 - INFO - newsapi-python paketi yüklü.
+2025-05-06 10:27:38,645 - INFO - Veri toplama iþlemi baþlýyor...
+2025-05-06 10:28:47,982 - INFO - Kullanýlacak parametreler: Hisse: AAPL, Endeks: ^IXIC
+2025-05-06 10:28:47,982 - INFO - Tarih aralýðý: 2024-05-05 - 2025-05-05
+2025-05-06 10:28:47,982 - INFO - 'AAPL' sembolü Yahoo Finance'de kontrol ediliyor...
+2025-05-06 10:28:48,400 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 10:28:48,712 - ERROR - AAPL: No price data found, symbol may be delisted (period=1d)
+2025-05-06 10:28:49,045 - INFO - '^IXIC' sembolü Yahoo Finance'de kontrol ediliyor...
+2025-05-06 10:28:49,303 - ERROR - Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 10:28:49,538 - ERROR - ^IXIC: No price data found, symbol may be delisted (period=1d)
+2025-05-06 10:28:49,822 - WARNING - Sembol format düzeltmesi uygulanýyor...
+2025-05-06 10:28:49,822 - INFO - Sembol düzeltmesi: AAPL -> AAPL
+2025-05-06 10:28:49,822 - INFO - Endeks düzeltmesi: ^IXIC -> ^IXIC
+2025-05-06 10:28:49,823 - INFO - 'AAPL' sembolü Yahoo Finance'de kontrol ediliyor...
+2025-05-06 10:28:50,120 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 10:28:50,372 - ERROR - AAPL: No price data found, symbol may be delisted (period=1d)
+2025-05-06 10:28:50,694 - INFO - '^IXIC' sembolü Yahoo Finance'de kontrol ediliyor...
+2025-05-06 10:28:51,026 - ERROR - Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 10:28:51,302 - ERROR - ^IXIC: No price data found, symbol may be delisted (period=1d)
+2025-05-06 10:28:51,792 - INFO - 'AAPL' sembolü bulunamadý veya geçerli deðil.
+2025-05-06 10:28:51,793 - INFO - '^IXIC' sembolü bulunamadý veya geçerli deðil.
+2025-05-06 10:28:51,793 - INFO - Hisse senedi verileri alýnýyor...
+2025-05-06 10:28:51,794 - INFO - HisseVerisiAlma modülü kullanýlarak veriler alýnýyor...
+2025-05-06 10:28:51,794 - INFO - Hisse ve endeks verileri alýnýyor: AAPL, ^IXIC
+2025-05-06 10:28:52,065 - ERROR - Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 10:28:52,518 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 10:28:52,526 - ERROR - 
+2 Failed downloads:
+2025-05-06 10:28:52,527 - ERROR - ['^IXIC', 'AAPL']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2025-05-06 10:28:52,541 - INFO - Toplam 0 satýr veri alýndý.
+2025-05-06 10:28:52,541 - WARNING - HisseVerisiAlma modülü ile veri alýnamadý, doðrudan yöntem deneniyor...
+2025-05-06 10:28:52,541 - INFO - Hisse ve endeks verileri doðrudan alýnýyor: AAPL, ^IXIC
+2025-05-06 10:28:52,545 - INFO - AAPL için veri indiriliyor...
+2025-05-06 10:28:53,040 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 10:28:53,054 - ERROR - 
+1 Failed download:
+2025-05-06 10:28:53,054 - ERROR - ['AAPL']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2025-05-06 10:28:53,055 - ERROR - AAPL verisi alýnamadý: type object 'datetime.time' has no attribute 'sleep'
+2025-05-06 10:28:53,055 - INFO - ^IXIC için veri indiriliyor...
+2025-05-06 10:28:53,526 - ERROR - Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 10:28:53,529 - ERROR - 
+1 Failed download:
+2025-05-06 10:28:53,530 - ERROR - ['^IXIC']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2025-05-06 10:28:53,530 - ERROR - ^IXIC verisi alýnamadý: type object 'datetime.time' has no attribute 'sleep'
+2025-05-06 10:28:53,530 - ERROR - Hem hisse hem de endeks verileri alýnamadý.
+2025-05-06 10:28:53,531 - WARNING - Doðrudan yöntemle de veri alýnamadý, alternatif kaynak deneniyor...
+2025-05-06 10:28:53,532 - INFO - Alternatif veri kaynaklarý kullanýlýyor: AAPL, ^IXIC
+2025-05-06 10:28:53,532 - INFO - Yerel dosyadan veri okunuyor: C:\Users\asus\Desktop\PROJECALISMALARIM\Fýnans\Project C\Veri_Alma\veri/hisse/AAPL_2024-05-05_2025-05-05.csv
+2025-05-06 10:28:53,538 - INFO - Yerel dosyadan 522 satýr veri okundu.
+2025-05-06 10:28:53,541 - INFO - Veriler baþarýyla veri/hisse/AAPL_2024-05-05_2025-05-05.json dosyasýna kaydedildi.
+2025-05-06 10:28:53,541 - INFO - Apple için haber verileri alýnýyor...
+2025-05-06 10:28:53,541 - INFO - Apple ile ilgili haberler toplanýyor...
+2025-05-06 10:28:53,542 - INFO - NewsApiClient baþarýyla baþlatýldý.
+2025-05-06 10:28:55,532 - ERROR - NewsAPI hatasý: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-05, but you have requested 2024-05-05. You may need to upgrade to a paid plan. (Kod: 426)
+2025-05-06 10:28:55,533 - WARNING - API yanýtý baþarýsýz: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-05, but you have requested 2024-05-05. You may need to upgrade to a paid plan.
+2025-05-06 10:28:55,534 - ERROR - Haber verisi alýnýrken hata oluþtu: type object 'datetime.time' has no attribute 'sleep'
+2025-05-06 10:28:55,534 - INFO - Alternatif haber kaynaðý kullanýlýyor: Apple
+2025-05-06 10:28:55,534 - WARNING - Gerçek haber verileri alýnamadý, örnek haber verileri oluþturuluyor.
+2025-05-06 10:28:55,542 - INFO - 465 sentetik haber makalesi oluþturuldu.
+2025-05-06 10:28:55,543 - INFO - Haberlere sentiment analizi uygulanýyor...
+2025-05-06 10:28:55,585 - INFO - Sentiment analizi tamamlandý.
+2025-05-06 10:28:55,599 - INFO - Sentetik haber verileri gelecekte kullanýlmak üzere kaydedildi: C:\Users\asus\Desktop\PROJECALISMALARIM\Fýnans\Project C\Veri_Alma\veri/haber/apple_haberler_2024-05-05_2025-05-05.csv
+2025-05-06 10:28:55,605 - INFO - Veriler baþarýyla veri/haber/AAPL_haberler_2024-05-05_2025-05-05.json dosyasýna kaydedildi.
+2025-05-06 10:28:55,606 - INFO - Hisse ve haber verileri birleþtiriliyor: AAPL
+2025-05-06 10:28:55,609 - INFO - Haberleri zaman dilimlerine göre gruplama...
+2025-05-06 10:28:55,668 - INFO - Veri birleþtirme tamamlandý. Sonuç: 261 satýr.
+2025-05-06 10:28:55,669 - INFO - Birleþtirilmiþ veri 22 sütun içeriyor.
+2025-05-06 10:28:55,672 - INFO - Veriler baþarýyla veri/birlestir/AAPL_birlesik_2024-05-05_2025-05-05.json dosyasýna kaydedildi.
+2025-05-06 10:28:55,673 - INFO - Veri toplama ve iþleme tamamlandý.
+2025-05-06 10:28:55,674 - INFO - Sonuçlar þu dosyalara kaydedildi:
+2025-05-06 10:28:55,674 - INFO -   - Hisse verileri: veri/hisse/AAPL_2024-05-05_2025-05-05.json
+2025-05-06 10:28:55,674 - INFO -   - Haber verileri: veri/haber/AAPL_haberler_2024-05-05_2025-05-05.json
+2025-05-06 10:28:55,674 - INFO -   - Birleþtirilmiþ veriler: veri/birlestir/AAPL_birlesik_2024-05-05_2025-05-05.json

@@ -175,7 +175,7 @@ def process_text_data(df):
             labels=['Negatif', 'Nötr', 'Pozitif']
         )
         return df
-    
+    # TODO: Kullanilacak modelin secimi yapilacak.
     # Gemini API'yi yapılandır
     genai.configure(api_key=api_key)
     model = genai.GenerativeModel('gemini-pro')

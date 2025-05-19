@@ -1,0 +1,1 @@
+ilgili hisee ile beraber aynı şekilde bir zaman serisi verisi gibi ilgili hisse için belirtilen tarih içerisindeki haberleri veya haberlerin sentimal analizlerin listesini veren bir veri alma katmanı geliştirlilecek.

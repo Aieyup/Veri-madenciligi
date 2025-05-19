@@ -1,0 +1,13 @@
+2025-05-10 17:31:49,615 - INFO - Parametreler: Þirket: Apple INC
+2025-05-10 17:31:49,615 - INFO - Tarih aralýðý: 2024-05-05 - 2025-05-05
+2025-05-10 17:31:49,616 - INFO - Apple INC için haber verileri alýnýyor...
+2025-05-10 17:31:49,616 - INFO - Apple INC ile ilgili haberler toplanýyor...
+2025-05-10 17:31:49,616 - INFO - NewsApiClient baþarýyla baþlatýldý.
+2025-05-10 17:31:50,848 - ERROR - NewsAPI hatasý: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-09, but you have requested 2024-05-05. You may need to upgrade to a paid plan. (Kod: 426)
+2025-05-10 17:31:50,848 - WARNING - API yanýtý baþarýsýz: You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2025-04-09, but you have requested 2024-05-05. You may need to upgrade to a paid plan.
+2025-05-10 17:31:50,848 - ERROR - Haber verisi alýnýrken hata oluþtu: type object 'datetime.time' has no attribute 'sleep'
+2025-05-10 17:31:50,848 - INFO - Alternatif haber kaynaðý kullanýlýyor: Apple INC
+2025-05-10 17:31:50,848 - WARNING - Gerçek haber verileri alýnamadý, örnek haber verileri oluþturuluyor.
+2025-05-10 17:31:50,898 - INFO - 458 sentetik haber makalesi oluþturuldu.
+2025-05-10 17:31:50,915 - INFO - Sentetik haber verileri gelecekte kullanýlmak üzere kaydedildi: C:\Users\asus\Desktop\PROJECALISMALARIM\Fýnans\Project C\Veri_Alma\veri/haber/apple_inc_haberler_2024-05-05_2025-05-05.csv
+2025-05-10 17:31:50,931 - INFO - Veriler baþarýyla veri/haber/apple_inc_haberler_2024-05-05_2025-05-05.json dosyasýna kaydedildi.

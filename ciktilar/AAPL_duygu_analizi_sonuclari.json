@@ -1,0 +1,25 @@
+{
+    "sentiment_metrics": {
+        "avg_sentiment": 0.06607339293320563,
+        "positive_days_pct": 52.10727969348659,
+        "negative_days_pct": 16.47509578544061,
+        "neutral_days_pct": 31.417624521072796,
+        "sentiment_volatility": 0.09507518555980349,
+        "recent_sentiment_trend": 0.05141428571428571
+    },
+    "sentiment_price_correlation": {
+        "same_day": 0.03733598650437214,
+        "next_day": 0.03213172759385089,
+        "two_day": 0.03182889203903671
+    },
+    "news_impact": {
+        "sabah_news_return": -0.06242966286459305,
+        "öğle_news_return": 0.10346586148445953,
+        "akşam_news_return": -0.011785903444958688
+    },
+    "evaluation_results": {
+        "positive_sentiment_return": 0.1446552082915141,
+        "negative_sentiment_return": -0.11573801755989839,
+        "high_sentiment_volatility_return": 0.09051231046231642
+    }
+}
